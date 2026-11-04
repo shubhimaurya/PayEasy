@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8304E7BA2E391B9300D31614 /* NewTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304E7B92E391B9300D31614 /* NewTransferView.swift */; };
+		836E660D2E3F4BA200D68F6A /* InteractiveWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E660C2E3F4BA200D68F6A /* InteractiveWebView.swift */; };
+		836E660F2E3F7DB400D68F6A /* Sep12KycFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E660E2E3F7DB400D68F6A /* Sep12KycFormSheet.swift */; };
+		8373576D2E54CBCB00E48F55 /* path_payment_demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 837357252E54CBCB00E48F55 /* path_payment_demo.gif */; };
+		8373576F2E54CBCB00E48F55 /* account_funded.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357292E54CBCB00E48F55 /* account_funded.png */; };
+		837357702E54CBCB00E48F55 /* account_not_funded.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373572A2E54CBCB00E48F55 /* account_not_funded.png */; };
+		837357712E54CBCB00E48F55 /* additional_kyc_data.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373572C2E54CBCB00E48F55 /* additional_kyc_data.png */; };
+		837357722E54CBCB00E48F55 /* anchored_assets_dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373572D2E54CBCB00E48F55 /* anchored_assets_dropdown.png */; };
+		837357732E54CBCB00E48F55 /* history_mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373572E2E54CBCB00E48F55 /* history_mode.png */; };
+		837357742E54CBCB00E48F55 /* pending_anchor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373572F2E54CBCB00E48F55 /* pending_anchor.png */; };
+		837357752E54CBCB00E48F55 /* pending_customer_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357302E54CBCB00E48F55 /* pending_customer_info.png */; };
+		837357762E54CBCB00E48F55 /* sep_6_deposit_fee.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357312E54CBCB00E48F55 /* sep_6_deposit_fee.png */; };
+		837357772E54CBCB00E48F55 /* sep_6_deposit_kyc_accepted.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357322E54CBCB00E48F55 /* sep_6_deposit_kyc_accepted.png */; };
+		837357782E54CBCB00E48F55 /* sep_6_deposit_kyc_form.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357332E54CBCB00E48F55 /* sep_6_deposit_kyc_form.png */; };
+		837357792E54CBCB00E48F55 /* sep_6_deposit_received.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357342E54CBCB00E48F55 /* sep_6_deposit_received.png */; };
+		8373577A2E54CBCB00E48F55 /* sep_6_deposit_stepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357352E54CBCB00E48F55 /* sep_6_deposit_stepper.png */; };
+		8373577B2E54CBCB00E48F55 /* sep_6_deposit_submitted.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357362E54CBCB00E48F55 /* sep_6_deposit_submitted.png */; };
+		8373577C2E54CBCB00E48F55 /* sep_6_depost_summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357372E54CBCB00E48F55 /* sep_6_depost_summary.png */; };
+		8373577D2E54CBCB00E48F55 /* sep_6_methods_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357382E54CBCB00E48F55 /* sep_6_methods_buttons.png */; };
+		8373577E2E54CBCB00E48F55 /* sep_10_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357392E54CBCB00E48F55 /* sep_10_pin.png */; };
+		8373577F2E54CBCB00E48F55 /* sep_24_deposit_interactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373573A2E54CBCB00E48F55 /* sep_24_deposit_interactive.png */; };
+		837357802E54CBCB00E48F55 /* transfers_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373573B2E54CBCB00E48F55 /* transfers_view.png */; };
+		837357812E54CBCB00E48F55 /* asset_added.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373573D2E54CBCB00E48F55 /* asset_added.png */; };
+		837357822E54CBCB00E48F55 /* asset_removal_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373573E2E54CBCB00E48F55 /* asset_removal_button.png */; };
+		837357832E54CBCB00E48F55 /* asset_removed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373573F2E54CBCB00E48F55 /* asset_removed.png */; };
+		837357842E54CBCB00E48F55 /* assets_dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357402E54CBCB00E48F55 /* assets_dropdown.png */; };
+		837357852E54CBCB00E48F55 /* assets_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357412E54CBCB00E48F55 /* assets_tab.png */; };
+		837357862E54CBCB00E48F55 /* custom_asset_added.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357422E54CBCB00E48F55 /* custom_asset_added.png */; };
+		837357872E54CBCB00E48F55 /* custom_asset_form.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357432E54CBCB00E48F55 /* custom_asset_form.png */; };
+		837357882E54CBCB00E48F55 /* pin_input.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357442E54CBCB00E48F55 /* pin_input.png */; };
+		837357892E54CBCB00E48F55 /* remove_asset_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357452E54CBCB00E48F55 /* remove_asset_pin.png */; };
+		8373578A2E54CBCB00E48F55 /* add_james_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357472E54CBCB00E48F55 /* add_james_contact.png */; };
+		8373578B2E54CBCB00E48F55 /* create_copper_offer.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357482E54CBCB00E48F55 /* create_copper_offer.png */; };
+		8373578C2E54CBCB00E48F55 /* create_james_account.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357492E54CBCB00E48F55 /* create_james_account.png */; };
+		8373578D2E54CBCB00E48F55 /* create_silver_offer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373574A2E54CBCB00E48F55 /* create_silver_offer.png */; };
+		8373578E2E54CBCB00E48F55 /* find_path_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373574B2E54CBCB00E48F55 /* find_path_button.png */; };
+		8373578F2E54CBCB00E48F55 /* issuer_sends_copper_and_silver.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373574C2E54CBCB00E48F55 /* issuer_sends_copper_and_silver.png */; };
+		837357902E54CBCB00E48F55 /* james_trust_silver_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373574D2E54CBCB00E48F55 /* james_trust_silver_1.png */; };
+		837357912E54CBCB00E48F55 /* james_trust_silver_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373574E2E54CBCB00E48F55 /* james_trust_silver_2.png */; };
+		837357922E54CBCB00E48F55 /* path_display.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373574F2E54CBCB00E48F55 /* path_display.png */; };
+		837357932E54CBCB00E48F55 /* path_payment_mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357502E54CBCB00E48F55 /* path_payment_mode.png */; };
+		837357942E54CBCB00E48F55 /* path_payment_strict_receive_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357512E54CBCB00E48F55 /* path_payment_strict_receive_start.png */; };
+		837357952E54CBCB00E48F55 /* path_payment_strict_send_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357522E54CBCB00E48F55 /* path_payment_strict_send_start.png */; };
+		837357962E54CBCB00E48F55 /* path_payment_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357532E54CBCB00E48F55 /* path_payment_success.png */; };
+		837357972E54CBCB00E48F55 /* recent_payments_strict_send.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357542E54CBCB00E48F55 /* recent_payments_strict_send.png */; };
+		837357982E54CBCB00E48F55 /* recent_payments_updated.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357552E54CBCB00E48F55 /* recent_payments_updated.png */; };
+		837357992E54CBCB00E48F55 /* simple_payment_asset_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357562E54CBCB00E48F55 /* simple_payment_asset_selected.png */; };
+		8373579A2E54CBCB00E48F55 /* simple_payment_asset_selection.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357572E54CBCB00E48F55 /* simple_payment_asset_selection.png */; };
+		8373579B2E54CBCB00E48F55 /* simple_payment_select_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357582E54CBCB00E48F55 /* simple_payment_select_contact.png */; };
+		8373579C2E54CBCB00E48F55 /* simple_payment.png in Resources */ = {isa = PBXBuildFile; fileRef = 837357592E54CBCB00E48F55 /* simple_payment.png */; };
+		8373579D2E54CBCB00E48F55 /* trader_1_change_trust.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373575A2E54CBCB00E48F55 /* trader_1_change_trust.png */; };
+		8373579E2E54CBCB00E48F55 /* trader_2_change_trust.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373575B2E54CBCB00E48F55 /* trader_2_change_trust.png */; };
+		8373579F2E54CBCB00E48F55 /* signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373575D2E54CBCB00E48F55 /* signin.png */; };
+		837357A02E54CBCB00E48F55 /* signup_signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373575E2E54CBCB00E48F55 /* signup_signin.png */; };
+		837357A12E54CBCB00E48F55 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373575F2E54CBCB00E48F55 /* signup.png */; };
+		837357A22E54CBCB00E48F55 /* account_creation.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357612E54CBCB00E48F55 /* account_creation.md */; };
+		837357A32E54CBCB00E48F55 /* anchor_integration.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357622E54CBCB00E48F55 /* anchor_integration.md */; };
+		837357A42E54CBCB00E48F55 /* authentication.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357632E54CBCB00E48F55 /* authentication.md */; };
+		837357A52E54CBCB00E48F55 /* dashboard_data.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357642E54CBCB00E48F55 /* dashboard_data.md */; };
+		837357A62E54CBCB00E48F55 /* manage_trust.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357652E54CBCB00E48F55 /* manage_trust.md */; };
+		837357A72E54CBCB00E48F55 /* path_payment_test_setup.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357662E54CBCB00E48F55 /* path_payment_test_setup.md */; };
+		837357A82E54CBCB00E48F55 /* path_payment.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357672E54CBCB00E48F55 /* path_payment.md */; };
+		837357A92E54CBCB00E48F55 /* payment.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357682E54CBCB00E48F55 /* payment.md */; };
+		837357AA2E54CBCB00E48F55 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 837357692E54CBCB00E48F55 /* README.md */; };
+		837357AB2E54CBCB00E48F55 /* secure_data_storage.md in Resources */ = {isa = PBXBuildFile; fileRef = 8373576A2E54CBCB00E48F55 /* secure_data_storage.md */; };
+		837357AC2E54CBCB00E48F55 /* signup_and_sign_in.md in Resources */ = {isa = PBXBuildFile; fileRef = 8373576B2E54CBCB00E48F55 /* signup_and_sign_in.md */; };
+		837397D42E0D55E10032FDAA /* SwiftBasicPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837397D32E0D55E10032FDAA /* SwiftBasicPayApp.swift */; };
+		837397D62E0D55E10032FDAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837397D52E0D55E10032FDAA /* ContentView.swift */; };
+		837397DA2E0D55E20032FDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837397D92E0D55E20032FDAA /* Assets.xcassets */; };
+		837397DD2E0D55E20032FDAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837397DC2E0D55E20032FDAA /* Preview Assets.xcassets */; };
+		837397E92E0D67B70032FDAA /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837397E82E0D67B70032FDAA /* Dashboard.swift */; };
+		837397EB2E0D685C0032FDAA /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837397EA2E0D685C0032FDAA /* AuthView.swift */; };
+		837397EE2E0D6A3F0032FDAA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837397ED2E0D6A3F0032FDAA /* AuthService.swift */; };
+		837397F02E0D6A830032FDAA /* SecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837397EF2E0D6A830032FDAA /* SecureStorage.swift */; };
+		837397F32E0D6B660032FDAA /* SimpleKeychain in Frameworks */ = {isa = PBXBuildFile; productRef = 837397F22E0D6B660032FDAA /* SimpleKeychain */; };
+		837397F62E0D72B90032FDAA /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 837397F52E0D72B90032FDAA /* CryptoSwift */; };
+		837397F82E0D7AEE0032FDAA /* DemoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837397F72E0D7AEE0032FDAA /* DemoError.swift */; };
+		837397FE2E0E87110032FDAA /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 837397FD2E0E87110032FDAA /* AlertToast */; };
+		837398042E0F29E80032FDAA /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837398032E0F29E80032FDAA /* Overview.swift */; };
+		837398062E0F2A800032FDAA /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837398052E0F2A800032FDAA /* PaymentsView.swift */; };
+		837398082E0F2AE50032FDAA /* AssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837398072E0F2AE50032FDAA /* AssetsView.swift */; };
+		8373980A2E0F2B2C0032FDAA /* TransfersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837398092E0F2B2C0032FDAA /* TransfersView.swift */; };
+		8373980C2E0F2B9B0032FDAA /* KycView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8373980B2E0F2B9B0032FDAA /* KycView.swift */; };
+		8373980E2E0F2BD90032FDAA /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8373980D2E0F2BD90032FDAA /* ContactsView.swift */; };
+		837398122E1000D90032FDAA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837398112E1000D90032FDAA /* Utils.swift */; };
+		837398142E10047A0032FDAA /* StellarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837398132E10047A0032FDAA /* StellarService.swift */; };
+		837398162E129CF20032FDAA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837398152E129CF20032FDAA /* SettingsView.swift */; };
+		837CC65A2E3A2C3300B42033 /* Sep6DepositStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CC6592E3A2C3300B42033 /* Sep6DepositStepper.swift */; };
+		837CC65C2E3BB09800B42033 /* Sep6TransferResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CC65B2E3BB09800B42033 /* Sep6TransferResponseView.swift */; };
+		837CC65F2E3CB80800B42033 /* String+BasicPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CC65E2E3CB80800B42033 /* String+BasicPay.swift */; };
+		837CC6612E3CB97C00B42033 /* Double+BasicPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CC6602E3CB97C00B42033 /* Double+BasicPay.swift */; };
+		837CC66C2E3CD4D800B42033 /* stellar-wallet-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 837CC66B2E3CD4D800B42033 /* stellar-wallet-sdk */; };
+		83C0AA5C2E3E434400D279C7 /* Sep6WithdrawalStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0AA5B2E3E434400D279C7 /* Sep6WithdrawalStepper.swift */; };
+		83C0AA5E2E3E43D300D279C7 /* TransferFieldInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0AA5D2E3E43D300D279C7 /* TransferFieldInfo.swift */; };
+		83C0AA602E3E442000D279C7 /* KycFieldInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0AA5F2E3E442000D279C7 /* KycFieldInfo.swift */; };
+		83C0AA652E3E586B00D279C7 /* Sep6StepperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0AA612E3E586B00D279C7 /* Sep6StepperViews.swift */; };
+		83C0AA662E3E586B00D279C7 /* Sep6StepperBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0AA622E3E586B00D279C7 /* Sep6StepperBase.swift */; };
+		83C0AA672E3E586B00D279C7 /* Sep6DepositStepperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0AA632E3E586B00D279C7 /* Sep6DepositStepperViewModel.swift */; };
+		83C0AA682E3E586B00D279C7 /* Sep6WithdrawalStepperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0AA642E3E586B00D279C7 /* Sep6WithdrawalStepperViewModel.swift */; };
+		83ED5D292E4FCFEB006BD922 /* TransferComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ED5D272E4FCFEB006BD922 /* TransferComponents.swift */; };
+		83ED5D2A2E4FCFEB006BD922 /* TransferHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ED5D282E4FCFEB006BD922 /* TransferHistoryView.swift */; };
+		83EFF5A02EE480DB00359A37 /* stellar-wallet-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 83EFF59F2EE480DB00359A37 /* stellar-wallet-sdk */; };
+		83F5B2C92E2FC4E200920FF1 /* DashboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F5B2C82E2FC4E200920FF1 /* DashboardData.swift */; };
+		83F5B2D02E30CD5400920FF1 /* SendPaymentBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F5B2CF2E30CD5400920FF1 /* SendPaymentBox.swift */; };
+		83F5B2D22E30D48E00920FF1 /* SendPathPaymentBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F5B2D12E30D48E00920FF1 /* SendPathPaymentBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8304E7B92E391B9300D31614 /* NewTransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransferView.swift; sourceTree = "<group>"; };
+		836E660C2E3F4BA200D68F6A /* InteractiveWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveWebView.swift; sourceTree = "<group>"; };
+		836E660E2E3F7DB400D68F6A /* Sep12KycFormSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sep12KycFormSheet.swift; sourceTree = "<group>"; };
+		837357252E54CBCB00E48F55 /* path_payment_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = path_payment_demo.gif; sourceTree = "<group>"; };
+		837357292E54CBCB00E48F55 /* account_funded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_funded.png; sourceTree = "<group>"; };
+		8373572A2E54CBCB00E48F55 /* account_not_funded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_not_funded.png; sourceTree = "<group>"; };
+		8373572C2E54CBCB00E48F55 /* additional_kyc_data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = additional_kyc_data.png; sourceTree = "<group>"; };
+		8373572D2E54CBCB00E48F55 /* anchored_assets_dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anchored_assets_dropdown.png; sourceTree = "<group>"; };
+		8373572E2E54CBCB00E48F55 /* history_mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_mode.png; sourceTree = "<group>"; };
+		8373572F2E54CBCB00E48F55 /* pending_anchor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pending_anchor.png; sourceTree = "<group>"; };
+		837357302E54CBCB00E48F55 /* pending_customer_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pending_customer_info.png; sourceTree = "<group>"; };
+		837357312E54CBCB00E48F55 /* sep_6_deposit_fee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_deposit_fee.png; sourceTree = "<group>"; };
+		837357322E54CBCB00E48F55 /* sep_6_deposit_kyc_accepted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_deposit_kyc_accepted.png; sourceTree = "<group>"; };
+		837357332E54CBCB00E48F55 /* sep_6_deposit_kyc_form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_deposit_kyc_form.png; sourceTree = "<group>"; };
+		837357342E54CBCB00E48F55 /* sep_6_deposit_received.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_deposit_received.png; sourceTree = "<group>"; };
+		837357352E54CBCB00E48F55 /* sep_6_deposit_stepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_deposit_stepper.png; sourceTree = "<group>"; };
+		837357362E54CBCB00E48F55 /* sep_6_deposit_submitted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_deposit_submitted.png; sourceTree = "<group>"; };
+		837357372E54CBCB00E48F55 /* sep_6_depost_summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_depost_summary.png; sourceTree = "<group>"; };
+		837357382E54CBCB00E48F55 /* sep_6_methods_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_6_methods_buttons.png; sourceTree = "<group>"; };
+		837357392E54CBCB00E48F55 /* sep_10_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_10_pin.png; sourceTree = "<group>"; };
+		8373573A2E54CBCB00E48F55 /* sep_24_deposit_interactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sep_24_deposit_interactive.png; sourceTree = "<group>"; };
+		8373573B2E54CBCB00E48F55 /* transfers_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transfers_view.png; sourceTree = "<group>"; };
+		8373573D2E54CBCB00E48F55 /* asset_added.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asset_added.png; sourceTree = "<group>"; };
+		8373573E2E54CBCB00E48F55 /* asset_removal_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asset_removal_button.png; sourceTree = "<group>"; };
+		8373573F2E54CBCB00E48F55 /* asset_removed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asset_removed.png; sourceTree = "<group>"; };
+		837357402E54CBCB00E48F55 /* assets_dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assets_dropdown.png; sourceTree = "<group>"; };
+		837357412E54CBCB00E48F55 /* assets_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assets_tab.png; sourceTree = "<group>"; };
+		837357422E54CBCB00E48F55 /* custom_asset_added.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_asset_added.png; sourceTree = "<group>"; };
+		837357432E54CBCB00E48F55 /* custom_asset_form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_asset_form.png; sourceTree = "<group>"; };
+		837357442E54CBCB00E48F55 /* pin_input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_input.png; sourceTree = "<group>"; };
+		837357452E54CBCB00E48F55 /* remove_asset_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove_asset_pin.png; sourceTree = "<group>"; };
+		837357472E54CBCB00E48F55 /* add_james_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_james_contact.png; sourceTree = "<group>"; };
+		837357482E54CBCB00E48F55 /* create_copper_offer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_copper_offer.png; sourceTree = "<group>"; };
+		837357492E54CBCB00E48F55 /* create_james_account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_james_account.png; sourceTree = "<group>"; };
+		8373574A2E54CBCB00E48F55 /* create_silver_offer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_silver_offer.png; sourceTree = "<group>"; };
+		8373574B2E54CBCB00E48F55 /* find_path_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = find_path_button.png; sourceTree = "<group>"; };
+		8373574C2E54CBCB00E48F55 /* issuer_sends_copper_and_silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = issuer_sends_copper_and_silver.png; sourceTree = "<group>"; };
+		8373574D2E54CBCB00E48F55 /* james_trust_silver_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = james_trust_silver_1.png; sourceTree = "<group>"; };
+		8373574E2E54CBCB00E48F55 /* james_trust_silver_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = james_trust_silver_2.png; sourceTree = "<group>"; };
+		8373574F2E54CBCB00E48F55 /* path_display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = path_display.png; sourceTree = "<group>"; };
+		837357502E54CBCB00E48F55 /* path_payment_mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = path_payment_mode.png; sourceTree = "<group>"; };
+		837357512E54CBCB00E48F55 /* path_payment_strict_receive_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = path_payment_strict_receive_start.png; sourceTree = "<group>"; };
+		837357522E54CBCB00E48F55 /* path_payment_strict_send_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = path_payment_strict_send_start.png; sourceTree = "<group>"; };
+		837357532E54CBCB00E48F55 /* path_payment_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = path_payment_success.png; sourceTree = "<group>"; };
+		837357542E54CBCB00E48F55 /* recent_payments_strict_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recent_payments_strict_send.png; sourceTree = "<group>"; };
+		837357552E54CBCB00E48F55 /* recent_payments_updated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recent_payments_updated.png; sourceTree = "<group>"; };
+		837357562E54CBCB00E48F55 /* simple_payment_asset_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_payment_asset_selected.png; sourceTree = "<group>"; };
+		837357572E54CBCB00E48F55 /* simple_payment_asset_selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_payment_asset_selection.png; sourceTree = "<group>"; };
+		837357582E54CBCB00E48F55 /* simple_payment_select_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_payment_select_contact.png; sourceTree = "<group>"; };
+		837357592E54CBCB00E48F55 /* simple_payment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_payment.png; sourceTree = "<group>"; };
+		8373575A2E54CBCB00E48F55 /* trader_1_change_trust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trader_1_change_trust.png; sourceTree = "<group>"; };
+		8373575B2E54CBCB00E48F55 /* trader_2_change_trust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trader_2_change_trust.png; sourceTree = "<group>"; };
+		8373575D2E54CBCB00E48F55 /* signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin.png; sourceTree = "<group>"; };
+		8373575E2E54CBCB00E48F55 /* signup_signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup_signin.png; sourceTree = "<group>"; };
+		8373575F2E54CBCB00E48F55 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
+		837357612E54CBCB00E48F55 /* account_creation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = account_creation.md; sourceTree = "<group>"; };
+		837357622E54CBCB00E48F55 /* anchor_integration.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = anchor_integration.md; sourceTree = "<group>"; };
+		837357632E54CBCB00E48F55 /* authentication.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = authentication.md; sourceTree = "<group>"; };
+		837357642E54CBCB00E48F55 /* dashboard_data.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = dashboard_data.md; sourceTree = "<group>"; };
+		837357652E54CBCB00E48F55 /* manage_trust.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = manage_trust.md; sourceTree = "<group>"; };
+		837357662E54CBCB00E48F55 /* path_payment_test_setup.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = path_payment_test_setup.md; sourceTree = "<group>"; };
+		837357672E54CBCB00E48F55 /* path_payment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = path_payment.md; sourceTree = "<group>"; };
+		837357682E54CBCB00E48F55 /* payment.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = payment.md; sourceTree = "<group>"; };
+		837357692E54CBCB00E48F55 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8373576A2E54CBCB00E48F55 /* secure_data_storage.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = secure_data_storage.md; sourceTree = "<group>"; };
+		8373576B2E54CBCB00E48F55 /* signup_and_sign_in.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = signup_and_sign_in.md; sourceTree = "<group>"; };
+		837397D02E0D55E10032FDAA /* SwiftBasicPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasicPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837397D32E0D55E10032FDAA /* SwiftBasicPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicPayApp.swift; sourceTree = "<group>"; };
+		837397D52E0D55E10032FDAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		837397D92E0D55E20032FDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		837397DC2E0D55E20032FDAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		837397E82E0D67B70032FDAA /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		837397EA2E0D685C0032FDAA /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		837397ED2E0D6A3F0032FDAA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		837397EF2E0D6A830032FDAA /* SecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorage.swift; sourceTree = "<group>"; };
+		837397F72E0D7AEE0032FDAA /* DemoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoError.swift; sourceTree = "<group>"; };
+		837398032E0F29E80032FDAA /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		837398052E0F2A800032FDAA /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
+		837398072E0F2AE50032FDAA /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
+		837398092E0F2B2C0032FDAA /* TransfersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfersView.swift; sourceTree = "<group>"; };
+		8373980B2E0F2B9B0032FDAA /* KycView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KycView.swift; sourceTree = "<group>"; };
+		8373980D2E0F2BD90032FDAA /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		837398112E1000D90032FDAA /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		837398132E10047A0032FDAA /* StellarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarService.swift; sourceTree = "<group>"; };
+		837398152E129CF20032FDAA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		837CC6592E3A2C3300B42033 /* Sep6DepositStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sep6DepositStepper.swift; sourceTree = "<group>"; };
+		837CC65B2E3BB09800B42033 /* Sep6TransferResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sep6TransferResponseView.swift; sourceTree = "<group>"; };
+		837CC65E2E3CB80800B42033 /* String+BasicPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+BasicPay.swift"; sourceTree = "<group>"; };
+		837CC6602E3CB97C00B42033 /* Double+BasicPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+BasicPay.swift"; sourceTree = "<group>"; };
+		83C0AA5B2E3E434400D279C7 /* Sep6WithdrawalStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sep6WithdrawalStepper.swift; sourceTree = "<group>"; };
+		83C0AA5D2E3E43D300D279C7 /* TransferFieldInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFieldInfo.swift; sourceTree = "<group>"; };
+		83C0AA5F2E3E442000D279C7 /* KycFieldInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KycFieldInfo.swift; sourceTree = "<group>"; };
+		83C0AA612E3E586B00D279C7 /* Sep6StepperViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sep6StepperViews.swift; sourceTree = "<group>"; };
+		83C0AA622E3E586B00D279C7 /* Sep6StepperBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sep6StepperBase.swift; sourceTree = "<group>"; };
+		83C0AA632E3E586B00D279C7 /* Sep6DepositStepperViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sep6DepositStepperViewModel.swift; sourceTree = "<group>"; };
+		83C0AA642E3E586B00D279C7 /* Sep6WithdrawalStepperViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sep6WithdrawalStepperViewModel.swift; sourceTree = "<group>"; };
+		83ED5D272E4FCFEB006BD922 /* TransferComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferComponents.swift; sourceTree = "<group>"; };
+		83ED5D282E4FCFEB006BD922 /* TransferHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferHistoryView.swift; sourceTree = "<group>"; };
+		83F5B2C82E2FC4E200920FF1 /* DashboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardData.swift; sourceTree = "<group>"; };
+		83F5B2CF2E30CD5400920FF1 /* SendPaymentBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendPaymentBox.swift; sourceTree = "<group>"; };
+		83F5B2D12E30D48E00920FF1 /* SendPathPaymentBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendPathPaymentBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837397CD2E0D55E10032FDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837397F32E0D6B660032FDAA /* SimpleKeychain in Frameworks */,
+				837397FE2E0E87110032FDAA /* AlertToast in Frameworks */,
+				83EFF5A02EE480DB00359A37 /* stellar-wallet-sdk in Frameworks */,
+				837CC66C2E3CD4D800B42033 /* stellar-wallet-sdk in Frameworks */,
+				837397F62E0D72B90032FDAA /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837357272E54CBCB00E48F55 /* animated_gifs */ = {
+			isa = PBXGroup;
+			children = (
+				837357252E54CBCB00E48F55 /* path_payment_demo.gif */,
+			);
+			path = animated_gifs;
+			sourceTree = "<group>";
+		};
+		837357282E54CBCB00E48F55 /* demos */ = {
+			isa = PBXGroup;
+			children = (
+				837357272E54CBCB00E48F55 /* animated_gifs */,
+			);
+			path = demos;
+			sourceTree = "<group>";
+		};
+		8373572B2E54CBCB00E48F55 /* account_creation */ = {
+			isa = PBXGroup;
+			children = (
+				837357292E54CBCB00E48F55 /* account_funded.png */,
+				8373572A2E54CBCB00E48F55 /* account_not_funded.png */,
+			);
+			path = account_creation;
+			sourceTree = "<group>";
+		};
+		8373573C2E54CBCB00E48F55 /* anchor */ = {
+			isa = PBXGroup;
+			children = (
+				8373572C2E54CBCB00E48F55 /* additional_kyc_data.png */,
+				8373572D2E54CBCB00E48F55 /* anchored_assets_dropdown.png */,
+				8373572E2E54CBCB00E48F55 /* history_mode.png */,
+				8373572F2E54CBCB00E48F55 /* pending_anchor.png */,
+				837357302E54CBCB00E48F55 /* pending_customer_info.png */,
+				837357312E54CBCB00E48F55 /* sep_6_deposit_fee.png */,
+				837357322E54CBCB00E48F55 /* sep_6_deposit_kyc_accepted.png */,
+				837357332E54CBCB00E48F55 /* sep_6_deposit_kyc_form.png */,
+				837357342E54CBCB00E48F55 /* sep_6_deposit_received.png */,
+				837357352E54CBCB00E48F55 /* sep_6_deposit_stepper.png */,
+				837357362E54CBCB00E48F55 /* sep_6_deposit_submitted.png */,
+				837357372E54CBCB00E48F55 /* sep_6_depost_summary.png */,
+				837357382E54CBCB00E48F55 /* sep_6_methods_buttons.png */,
+				837357392E54CBCB00E48F55 /* sep_10_pin.png */,
+				8373573A2E54CBCB00E48F55 /* sep_24_deposit_interactive.png */,
+				8373573B2E54CBCB00E48F55 /* transfers_view.png */,
+			);
+			path = anchor;
+			sourceTree = "<group>";
+		};
+		837357462E54CBCB00E48F55 /* manage_trust */ = {
+			isa = PBXGroup;
+			children = (
+				8373573D2E54CBCB00E48F55 /* asset_added.png */,
+				8373573E2E54CBCB00E48F55 /* asset_removal_button.png */,
+				8373573F2E54CBCB00E48F55 /* asset_removed.png */,
+				837357402E54CBCB00E48F55 /* assets_dropdown.png */,
+				837357412E54CBCB00E48F55 /* assets_tab.png */,
+				837357422E54CBCB00E48F55 /* custom_asset_added.png */,
+				837357432E54CBCB00E48F55 /* custom_asset_form.png */,
+				837357442E54CBCB00E48F55 /* pin_input.png */,
+				837357452E54CBCB00E48F55 /* remove_asset_pin.png */,
+			);
+			path = manage_trust;
+			sourceTree = "<group>";
+		};
+		8373575C2E54CBCB00E48F55 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				837357472E54CBCB00E48F55 /* add_james_contact.png */,
+				837357482E54CBCB00E48F55 /* create_copper_offer.png */,
+				837357492E54CBCB00E48F55 /* create_james_account.png */,
+				8373574A2E54CBCB00E48F55 /* create_silver_offer.png */,
+				8373574B2E54CBCB00E48F55 /* find_path_button.png */,
+				8373574C2E54CBCB00E48F55 /* issuer_sends_copper_and_silver.png */,
+				8373574D2E54CBCB00E48F55 /* james_trust_silver_1.png */,
+				8373574E2E54CBCB00E48F55 /* james_trust_silver_2.png */,
+				8373574F2E54CBCB00E48F55 /* path_display.png */,
+				837357502E54CBCB00E48F55 /* path_payment_mode.png */,
+				837357512E54CBCB00E48F55 /* path_payment_strict_receive_start.png */,
+				837357522E54CBCB00E48F55 /* path_payment_strict_send_start.png */,
+				837357532E54CBCB00E48F55 /* path_payment_success.png */,
+				837357542E54CBCB00E48F55 /* recent_payments_strict_send.png */,
+				837357552E54CBCB00E48F55 /* recent_payments_updated.png */,
+				837357562E54CBCB00E48F55 /* simple_payment_asset_selected.png */,
+				837357572E54CBCB00E48F55 /* simple_payment_asset_selection.png */,
+				837357582E54CBCB00E48F55 /* simple_payment_select_contact.png */,
+				837357592E54CBCB00E48F55 /* simple_payment.png */,
+				8373575A2E54CBCB00E48F55 /* trader_1_change_trust.png */,
+				8373575B2E54CBCB00E48F55 /* trader_2_change_trust.png */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		837357602E54CBCB00E48F55 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				8373572B2E54CBCB00E48F55 /* account_creation */,
+				8373573C2E54CBCB00E48F55 /* anchor */,
+				837357462E54CBCB00E48F55 /* manage_trust */,
+				8373575C2E54CBCB00E48F55 /* payment */,
+				8373575D2E54CBCB00E48F55 /* signin.png */,
+				8373575E2E54CBCB00E48F55 /* signup_signin.png */,
+				8373575F2E54CBCB00E48F55 /* signup.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		8373576C2E54CBCB00E48F55 /* tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				837357282E54CBCB00E48F55 /* demos */,
+				837357602E54CBCB00E48F55 /* img */,
+				837357612E54CBCB00E48F55 /* account_creation.md */,
+				837357622E54CBCB00E48F55 /* anchor_integration.md */,
+				837357632E54CBCB00E48F55 /* authentication.md */,
+				837357642E54CBCB00E48F55 /* dashboard_data.md */,
+				837357652E54CBCB00E48F55 /* manage_trust.md */,
+				837357662E54CBCB00E48F55 /* path_payment_test_setup.md */,
+				837357672E54CBCB00E48F55 /* path_payment.md */,
+				837357682E54CBCB00E48F55 /* payment.md */,
+				837357692E54CBCB00E48F55 /* README.md */,
+				8373576A2E54CBCB00E48F55 /* secure_data_storage.md */,
+				8373576B2E54CBCB00E48F55 /* signup_and_sign_in.md */,
+			);
+			path = tutorial;
+			sourceTree = "<group>";
+		};
+		837397C72E0D55E10032FDAA = {
+			isa = PBXGroup;
+			children = (
+				8373576C2E54CBCB00E48F55 /* tutorial */,
+				837397D22E0D55E10032FDAA /* SwiftBasicPay */,
+				837397D12E0D55E10032FDAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837397D12E0D55E10032FDAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837397D02E0D55E10032FDAA /* SwiftBasicPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837397D22E0D55E10032FDAA /* SwiftBasicPay */ = {
+			isa = PBXGroup;
+			children = (
+				83F5B2C72E2FC49E00920FF1 /* Model */,
+				83F5B2CA2E301AE000920FF1 /* View */,
+				837397F92E0D8FD00032FDAA /* common */,
+				837397EC2E0D6A270032FDAA /* services */,
+				837CC65D2E3CB7E600B42033 /* extensions */,
+				837397D32E0D55E10032FDAA /* SwiftBasicPayApp.swift */,
+				837397D92E0D55E20032FDAA /* Assets.xcassets */,
+				837397DB2E0D55E20032FDAA /* Preview Content */,
+			);
+			path = SwiftBasicPay;
+			sourceTree = "<group>";
+		};
+		837397DB2E0D55E20032FDAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				837397DC2E0D55E20032FDAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		837397EC2E0D6A270032FDAA /* services */ = {
+			isa = PBXGroup;
+			children = (
+				837397ED2E0D6A3F0032FDAA /* AuthService.swift */,
+				837397EF2E0D6A830032FDAA /* SecureStorage.swift */,
+				837398132E10047A0032FDAA /* StellarService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		837397F92E0D8FD00032FDAA /* common */ = {
+			isa = PBXGroup;
+			children = (
+				83C0AA5D2E3E43D300D279C7 /* TransferFieldInfo.swift */,
+				83C0AA5F2E3E442000D279C7 /* KycFieldInfo.swift */,
+				837398112E1000D90032FDAA /* Utils.swift */,
+				837397F72E0D7AEE0032FDAA /* DemoError.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		837CC65D2E3CB7E600B42033 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				837CC65E2E3CB80800B42033 /* String+BasicPay.swift */,
+				837CC6602E3CB97C00B42033 /* Double+BasicPay.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		83F5B2C72E2FC49E00920FF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83F5B2C82E2FC4E200920FF1 /* DashboardData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83F5B2CA2E301AE000920FF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				837397D52E0D55E10032FDAA /* ContentView.swift */,
+				837397E82E0D67B70032FDAA /* Dashboard.swift */,
+				837397EA2E0D685C0032FDAA /* AuthView.swift */,
+				837398032E0F29E80032FDAA /* Overview.swift */,
+				837398072E0F2AE50032FDAA /* AssetsView.swift */,
+				837398052E0F2A800032FDAA /* PaymentsView.swift */,
+				83F5B2CF2E30CD5400920FF1 /* SendPaymentBox.swift */,
+				83F5B2D12E30D48E00920FF1 /* SendPathPaymentBox.swift */,
+				8373980D2E0F2BD90032FDAA /* ContactsView.swift */,
+				837398092E0F2B2C0032FDAA /* TransfersView.swift */,
+				8373980B2E0F2B9B0032FDAA /* KycView.swift */,
+				837398152E129CF20032FDAA /* SettingsView.swift */,
+				8304E7B92E391B9300D31614 /* NewTransferView.swift */,
+				836E660C2E3F4BA200D68F6A /* InteractiveWebView.swift */,
+				83ED5D272E4FCFEB006BD922 /* TransferComponents.swift */,
+				83ED5D282E4FCFEB006BD922 /* TransferHistoryView.swift */,
+				836E660E2E3F7DB400D68F6A /* Sep12KycFormSheet.swift */,
+				83C0AA622E3E586B00D279C7 /* Sep6StepperBase.swift */,
+				83C0AA612E3E586B00D279C7 /* Sep6StepperViews.swift */,
+				83C0AA632E3E586B00D279C7 /* Sep6DepositStepperViewModel.swift */,
+				837CC6592E3A2C3300B42033 /* Sep6DepositStepper.swift */,
+				83C0AA5B2E3E434400D279C7 /* Sep6WithdrawalStepper.swift */,
+				83C0AA642E3E586B00D279C7 /* Sep6WithdrawalStepperViewModel.swift */,
+				837CC65B2E3BB09800B42033 /* Sep6TransferResponseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		837397CF2E0D55E10032FDAA /* SwiftBasicPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837397E02E0D55E20032FDAA /* Build configuration list for PBXNativeTarget "SwiftBasicPay" */;
+			buildPhases = (
+				837397CC2E0D55E10032FDAA /* Sources */,
+				837397CD2E0D55E10032FDAA /* Frameworks */,
+				837397CE2E0D55E10032FDAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBasicPay;
+			packageProductDependencies = (
+				837397F22E0D6B660032FDAA /* SimpleKeychain */,
+				837397F52E0D72B90032FDAA /* CryptoSwift */,
+				837397FD2E0E87110032FDAA /* AlertToast */,
+				837CC66B2E3CD4D800B42033 /* stellar-wallet-sdk */,
+				83EFF59F2EE480DB00359A37 /* stellar-wallet-sdk */,
+			);
+			productName = SwiftBasicPay;
+			productReference = 837397D02E0D55E10032FDAA /* SwiftBasicPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837397C82E0D55E10032FDAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					837397CF2E0D55E10032FDAA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 837397CB2E0D55E10032FDAA /* Build configuration list for PBXProject "SwiftBasicPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837397C72E0D55E10032FDAA;
+			packageReferences = (
+				837397F12E0D6B660032FDAA /* XCRemoteSwiftPackageReference "SimpleKeychain" */,
+				837397F42E0D72B90032FDAA /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				837397FC2E0E87110032FDAA /* XCRemoteSwiftPackageReference "AlertToast" */,
+				83EFF59E2EE480DB00359A37 /* XCRemoteSwiftPackageReference "stellar-swift-wallet-sdk" */,
+			);
+			productRefGroup = 837397D12E0D55E10032FDAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837397CF2E0D55E10032FDAA /* SwiftBasicPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837397CE2E0D55E10032FDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837357A52E54CBCB00E48F55 /* dashboard_data.md in Resources */,
+				837357852E54CBCB00E48F55 /* assets_tab.png in Resources */,
+				837357872E54CBCB00E48F55 /* custom_asset_form.png in Resources */,
+				837357902E54CBCB00E48F55 /* james_trust_silver_1.png in Resources */,
+				8373578C2E54CBCB00E48F55 /* create_james_account.png in Resources */,
+				837357772E54CBCB00E48F55 /* sep_6_deposit_kyc_accepted.png in Resources */,
+				837357832E54CBCB00E48F55 /* asset_removed.png in Resources */,
+				837357752E54CBCB00E48F55 /* pending_customer_info.png in Resources */,
+				837357942E54CBCB00E48F55 /* path_payment_strict_receive_start.png in Resources */,
+				8373577A2E54CBCB00E48F55 /* sep_6_deposit_stepper.png in Resources */,
+				8373577C2E54CBCB00E48F55 /* sep_6_depost_summary.png in Resources */,
+				8373577F2E54CBCB00E48F55 /* sep_24_deposit_interactive.png in Resources */,
+				837357A62E54CBCB00E48F55 /* manage_trust.md in Resources */,
+				837357712E54CBCB00E48F55 /* additional_kyc_data.png in Resources */,
+				8373579C2E54CBCB00E48F55 /* simple_payment.png in Resources */,
+				837357732E54CBCB00E48F55 /* history_mode.png in Resources */,
+				837357952E54CBCB00E48F55 /* path_payment_strict_send_start.png in Resources */,
+				837357992E54CBCB00E48F55 /* simple_payment_asset_selected.png in Resources */,
+				8373578D2E54CBCB00E48F55 /* create_silver_offer.png in Resources */,
+				837357922E54CBCB00E48F55 /* path_display.png in Resources */,
+				837357882E54CBCB00E48F55 /* pin_input.png in Resources */,
+				8373579D2E54CBCB00E48F55 /* trader_1_change_trust.png in Resources */,
+				8373578A2E54CBCB00E48F55 /* add_james_contact.png in Resources */,
+				837357722E54CBCB00E48F55 /* anchored_assets_dropdown.png in Resources */,
+				837397DD2E0D55E20032FDAA /* Preview Assets.xcassets in Resources */,
+				837357802E54CBCB00E48F55 /* transfers_view.png in Resources */,
+				8373578B2E54CBCB00E48F55 /* create_copper_offer.png in Resources */,
+				837357842E54CBCB00E48F55 /* assets_dropdown.png in Resources */,
+				837357A82E54CBCB00E48F55 /* path_payment.md in Resources */,
+				837357892E54CBCB00E48F55 /* remove_asset_pin.png in Resources */,
+				837357A22E54CBCB00E48F55 /* account_creation.md in Resources */,
+				837357A92E54CBCB00E48F55 /* payment.md in Resources */,
+				8373579B2E54CBCB00E48F55 /* simple_payment_select_contact.png in Resources */,
+				837357AB2E54CBCB00E48F55 /* secure_data_storage.md in Resources */,
+				837357AC2E54CBCB00E48F55 /* signup_and_sign_in.md in Resources */,
+				8373577D2E54CBCB00E48F55 /* sep_6_methods_buttons.png in Resources */,
+				8373579E2E54CBCB00E48F55 /* trader_2_change_trust.png in Resources */,
+				837357822E54CBCB00E48F55 /* asset_removal_button.png in Resources */,
+				837357782E54CBCB00E48F55 /* sep_6_deposit_kyc_form.png in Resources */,
+				837357862E54CBCB00E48F55 /* custom_asset_added.png in Resources */,
+				837357742E54CBCB00E48F55 /* pending_anchor.png in Resources */,
+				837357912E54CBCB00E48F55 /* james_trust_silver_2.png in Resources */,
+				837357702E54CBCB00E48F55 /* account_not_funded.png in Resources */,
+				8373579A2E54CBCB00E48F55 /* simple_payment_asset_selection.png in Resources */,
+				837357A42E54CBCB00E48F55 /* authentication.md in Resources */,
+				837357A02E54CBCB00E48F55 /* signup_signin.png in Resources */,
+				8373576F2E54CBCB00E48F55 /* account_funded.png in Resources */,
+				8373578E2E54CBCB00E48F55 /* find_path_button.png in Resources */,
+				837357982E54CBCB00E48F55 /* recent_payments_updated.png in Resources */,
+				837357A72E54CBCB00E48F55 /* path_payment_test_setup.md in Resources */,
+				8373578F2E54CBCB00E48F55 /* issuer_sends_copper_and_silver.png in Resources */,
+				837357A32E54CBCB00E48F55 /* anchor_integration.md in Resources */,
+				8373579F2E54CBCB00E48F55 /* signin.png in Resources */,
+				837357792E54CBCB00E48F55 /* sep_6_deposit_received.png in Resources */,
+				837357972E54CBCB00E48F55 /* recent_payments_strict_send.png in Resources */,
+				837357AA2E54CBCB00E48F55 /* README.md in Resources */,
+				837357932E54CBCB00E48F55 /* path_payment_mode.png in Resources */,
+				8373576D2E54CBCB00E48F55 /* path_payment_demo.gif in Resources */,
+				837397DA2E0D55E20032FDAA /* Assets.xcassets in Resources */,
+				837357762E54CBCB00E48F55 /* sep_6_deposit_fee.png in Resources */,
+				8373577B2E54CBCB00E48F55 /* sep_6_deposit_submitted.png in Resources */,
+				837357962E54CBCB00E48F55 /* path_payment_success.png in Resources */,
+				837357812E54CBCB00E48F55 /* asset_added.png in Resources */,
+				8373577E2E54CBCB00E48F55 /* sep_10_pin.png in Resources */,
+				837357A12E54CBCB00E48F55 /* signup.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837397CC2E0D55E10032FDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C0AA5C2E3E434400D279C7 /* Sep6WithdrawalStepper.swift in Sources */,
+				83F5B2D02E30CD5400920FF1 /* SendPaymentBox.swift in Sources */,
+				837398062E0F2A800032FDAA /* PaymentsView.swift in Sources */,
+				837CC65F2E3CB80800B42033 /* String+BasicPay.swift in Sources */,
+				83C0AA602E3E442000D279C7 /* KycFieldInfo.swift in Sources */,
+				8304E7BA2E391B9300D31614 /* NewTransferView.swift in Sources */,
+				83ED5D292E4FCFEB006BD922 /* TransferComponents.swift in Sources */,
+				837398042E0F29E80032FDAA /* Overview.swift in Sources */,
+				83ED5D2A2E4FCFEB006BD922 /* TransferHistoryView.swift in Sources */,
+				837CC65A2E3A2C3300B42033 /* Sep6DepositStepper.swift in Sources */,
+				837398162E129CF20032FDAA /* SettingsView.swift in Sources */,
+				8373980E2E0F2BD90032FDAA /* ContactsView.swift in Sources */,
+				83C0AA5E2E3E43D300D279C7 /* TransferFieldInfo.swift in Sources */,
+				837397D62E0D55E10032FDAA /* ContentView.swift in Sources */,
+				836E660D2E3F4BA200D68F6A /* InteractiveWebView.swift in Sources */,
+				8373980C2E0F2B9B0032FDAA /* KycView.swift in Sources */,
+				837397F02E0D6A830032FDAA /* SecureStorage.swift in Sources */,
+				837CC6612E3CB97C00B42033 /* Double+BasicPay.swift in Sources */,
+				83C0AA652E3E586B00D279C7 /* Sep6StepperViews.swift in Sources */,
+				837398122E1000D90032FDAA /* Utils.swift in Sources */,
+				837398082E0F2AE50032FDAA /* AssetsView.swift in Sources */,
+				83C0AA672E3E586B00D279C7 /* Sep6DepositStepperViewModel.swift in Sources */,
+				83C0AA682E3E586B00D279C7 /* Sep6WithdrawalStepperViewModel.swift in Sources */,
+				837397EB2E0D685C0032FDAA /* AuthView.swift in Sources */,
+				83F5B2D22E30D48E00920FF1 /* SendPathPaymentBox.swift in Sources */,
+				837397E92E0D67B70032FDAA /* Dashboard.swift in Sources */,
+				837397D42E0D55E10032FDAA /* SwiftBasicPayApp.swift in Sources */,
+				83C0AA662E3E586B00D279C7 /* Sep6StepperBase.swift in Sources */,
+				837397EE2E0D6A3F0032FDAA /* AuthService.swift in Sources */,
+				837398142E10047A0032FDAA /* StellarService.swift in Sources */,
+				83F5B2C92E2FC4E200920FF1 /* DashboardData.swift in Sources */,
+				837397F82E0D7AEE0032FDAA /* DemoError.swift in Sources */,
+				8373980A2E0F2B2C0032FDAA /* TransfersView.swift in Sources */,
+				837CC65C2E3BB09800B42033 /* Sep6TransferResponseView.swift in Sources */,
+				836E660F2E3F7DB400D68F6A /* Sep12KycFormSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		837397DE2E0D55E20032FDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		837397DF2E0D55E20032FDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		837397E12E0D55E20032FDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftBasicPay/Preview Content\"";
+				DEVELOPMENT_TEAM = LB6PL7WFX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soneso.SwiftBasicPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		837397E22E0D55E20032FDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftBasicPay/Preview Content\"";
+				DEVELOPMENT_TEAM = LB6PL7WFX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soneso.SwiftBasicPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837397CB2E0D55E10032FDAA /* Build configuration list for PBXProject "SwiftBasicPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837397DE2E0D55E20032FDAA /* Debug */,
+				837397DF2E0D55E20032FDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837397E02E0D55E20032FDAA /* Build configuration list for PBXNativeTarget "SwiftBasicPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837397E12E0D55E20032FDAA /* Debug */,
+				837397E22E0D55E20032FDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		837397F12E0D6B660032FDAA /* XCRemoteSwiftPackageReference "SimpleKeychain" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/SimpleKeychain";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		837397F42E0D72B90032FDAA /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.4;
+			};
+		};
+		837397FC2E0E87110032FDAA /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+		83EFF59E2EE480DB00359A37 /* XCRemoteSwiftPackageReference "stellar-swift-wallet-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Soneso/stellar-swift-wallet-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		837397F22E0D6B660032FDAA /* SimpleKeychain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837397F12E0D6B660032FDAA /* XCRemoteSwiftPackageReference "SimpleKeychain" */;
+			productName = SimpleKeychain;
+		};
+		837397F52E0D72B90032FDAA /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837397F42E0D72B90032FDAA /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		837397FD2E0E87110032FDAA /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837397FC2E0E87110032FDAA /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		837CC66B2E3CD4D800B42033 /* stellar-wallet-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "stellar-wallet-sdk";
+		};
+		83EFF59F2EE480DB00359A37 /* stellar-wallet-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83EFF59E2EE480DB00359A37 /* XCRemoteSwiftPackageReference "stellar-swift-wallet-sdk" */;
+			productName = "stellar-wallet-sdk";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 837397C82E0D55E10032FDAA /* Project object */;
+}
