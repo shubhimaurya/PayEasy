@@ -1,6 +1,6 @@
-# SwiftBasicPay
+# PayEasy
 
-SwiftBasicPay is an open-source example iOS payment application that showcases how to integrate Stellar's powerful payment infrastructure into native Swift apps using the using the [Stellar Wallet SDK for Swift](https://github.com/Soneso/stellar-swift-wallet-sdk) and the [Stellar iOS SDK](https://github.com/Soneso/stellar-ios-mac-sdk).
+PayEasy is an open-source example iOS payment application that showcases how to integrate Stellar's powerful payment infrastructure into native Swift apps using the using the [Stellar Wallet SDK for Swift](https://github.com/Soneso/stellar-swift-wallet-sdk) and the [Stellar iOS SDK](https://github.com/Soneso/stellar-ios-mac-sdk).
 
 
 ## Features
